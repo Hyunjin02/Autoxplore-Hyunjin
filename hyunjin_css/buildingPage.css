@@ -1,0 +1,565 @@
+@media screen and (min-width:0px), 
+screen and (max-height:479px) and (orientation:landscape){
+    /* 헤더 */
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .step1_1{
+        display: none;
+    }
+
+    .bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        width: 5vw;
+        height: auto;
+    }
+
+    .bar:hover{
+        background-color: #5e5e5e72;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        display: none;
+        margin-left: 0;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .header1 ul{
+        padding-left: 0;
+    }
+
+    .header1 ul li a{
+        padding-right: 20px;
+    }
+
+    .logo{
+        text-align: center;
+        justify-content:center;
+        display: block;
+        margin: 0 auto;
+        width: 30vw;
+    }
+
+    .header2{
+        display: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    .header2 ul li a{
+        padding-left: 20px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    nav li a:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px gray;
+        border-radius: 5%;
+    }
+
+    
+    .head{
+        text-align: center;
+    }
+    .head>p{
+        font-size: 15px;
+        color: rgb(163, 163, 163);
+    }
+    section{
+        background-color: #f3f3f3;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    
+    .aboutStep{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .step{
+        color: rgb(84, 84, 84);
+        font-size: 15px;
+    }
+    .stepname{
+        margin: 0px 10px;
+        font-size: 17px;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .line{
+        width: 97%;
+        border-bottom: 0.1px solid rgb(75, 75, 75);
+        margin: 5px;
+        margin-bottom: 10px;
+    }
+    
+    #step1,#step2{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    
+    select{
+        width: 100%;
+        height: 40px;
+        border: #EEE 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 170px;
+        margin-bottom: 0px;
+        
+    }
+    .layout2{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 170px;    }
+    .layout{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .infotype{
+        font-size: 14px;
+        font-weight: bold;
+        margin: 5px 0px;
+    }
+    .name,.phone{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+        margin-top: -3px;
+        margin-bottom: 10px;
+    }
+    .name>div:nth-child(2), .phone>div:nth-child(2){
+        font-size: 19px;
+        font-weight: 300px;
+    }
+    
+    .contactInfo>p:nth-child(2){
+        font-size: 9px;
+        margin-top: 1PX;
+    }
+    .contactInfo>p:nth-child(3){
+        margin-top: -5PX;
+        color: rgb(106, 107, 107);
+        font-size: 12px
+    }
+    
+    
+    .agreeAll{
+        width: 100%;
+        font-size: 13px;
+        height: 3.5vh;
+        border-radius: 15px;
+    
+    }
+    #ask{
+        width: 100%;
+        height: 70px;
+        border: white;
+        border-radius: 1px;
+        text-align: start;
+        font-size: 13px;
+    }
+    #askConsult{
+        margin-top: 50px;
+        width: 40%;
+        height: 20%;
+        background-color: black;
+        color: white;
+        font-size: 17.5px;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .forLayout2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    footer{
+        display: none;
+    }
+
+    
+    .place{
+        display: flex;
+        flex-direction: row;
+    }
+    .place1,.place2{
+        width: 50%;
+        margin: 3px;
+    }
+    
+    
+    }
+    
+    @media screen and (min-width:768px) ,
+    screen and (min-height:760px) and (orientation:landscape) {
+        header{
+            width: 100%;
+            height: 30px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            position: relative;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #step1{
+            display: none;
+        }
+        .step1_1{
+            display:block;
+        }
+        /* 헤더 */
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 5%;
+            width: 100%;
+        }
+
+        .bar{
+            display: none;
+            flex-direction: row;
+            justify-content: right;
+            width: 5vw;
+            height: auto;
+        }
+        
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    
+        .header1{
+            display: flex;
+            margin-left: 0;
+            margin-right: auto;
+            width: 40%;
+        }
+    
+        .header1 ul{
+            padding-left: 0;
+        }
+    
+        .header1 ul li a{
+            padding-right: 20px;
+        }
+    
+        .logo{
+            text-align: center;
+            justify-content:center;
+            display: block;
+            margin: 0 auto;
+            width: 15vw;
+        }
+    
+        .header2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: end;
+            margin-left: auto;
+            width: 40%;
+        }
+    
+        .header2 ul li a{
+            padding-left: 20px;
+        }
+        
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+        }
+        
+        nav li a{
+            text-decoration: none;
+            color: #333; 
+        }
+    
+        nav li a:hover{
+            color: rgb(0, 0, 0);
+            text-shadow: 2px 2px 2px gray;
+            border-radius: 5%;
+        }
+    
+    .layout3{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid silver;
+    }
+    
+    
+    
+    
+    .selectName1{
+        border: 1px solid silver;
+        width: 25%;
+        text-align: center;
+        font-size: 9px;
+    }
+    .layout4{
+        display: flex;
+        flex-direction: column;
+    }
+    .selectCategory{
+        border: 1px solid silver;
+        background-color: #ffffff;
+        width: 25%;
+        font-size: 9px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px ;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+    .selectCategory>label:first-child{
+        text-align: center;
+        margin: 15px;
+        font-weight: bold;
+    }
+     /* footer 섹션 */
+     footer{
+        height: 10%;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 3vw;
+        margin-top: 20px;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }
+    }
+    
+    
+    @media screen and (min-width:1024px), screen and (min-height:1024px) and (orientation:landscape){
+        /* 헤더 */
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            position: relative;
+            width: 100%;
+            margin-top: 5%;
+
+        }
+
+    .bar{
+        display: none;
+        flex-direction: row;
+        justify-content: right;
+        width: 5vw;
+        height: auto;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        display: flex;
+        margin-left: 0;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .header1 ul{
+        padding-left: 0;
+    }
+
+    .header1 ul li a{
+        padding-right: 30px;
+    }
+
+    .logo{
+        text-align: center;
+        justify-content:center;
+        display: block;
+        margin: 0 auto;
+        width: 10vw;
+    }
+
+    .header2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    .header2 ul li a{
+        padding-left: 30px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    nav li a:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px gray;
+        border-radius: 5%;
+    }
+    /*내가 만든 푸터
+     footer{
+        height: 160px;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 1vw;
+        margin-top: 10px;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }*/
+    /* footer 섹션 */
+    footer{
+        height: 18%;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 1vw;
+        margin-top: 10px;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }
+    }

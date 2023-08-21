@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>견적 페이지</title>
+    <link rel="stylesheet" href="hyunjin_css/consultPage.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="header1">
+        <ul>
+          <li><a href="vehiclesPage.html">차량</a></li>
+          <li><a href="vehiclesPage.html">브랜드</a></li>
+          <li><a href="consultPage.html">구매</a></li>
+          <li><a href="event.html">이벤트</a></li>
+        </ul>
+      </nav>
+      <a class="logo1" href="mainPage.html" title="메인 페이지로 이동"
+        ><img
+          class="logo"
+          src="image/logo/autoxplore.png"
+          alt="AUTOXPLORE 로고"
+      /></a>
+      <a href="#"><img class="bar" src="image/header/bar.png" alt="bar" /></a>
+      <nav class="header2">
+        <ul>
+          <li><a href="MyPage.html">로그인</a></li>
+          <li><a href="MyPage.html">마이페이지</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="head3">
+      <h3 class="head2">내 차 만들기</h3>
+      <p>
+        선택된 차량에 대해서 본인만의 색과 옵션을 선택하여<br />나만의 자동차를
+        만들어보세요.
+      </p>
+    </div>
+    <div class="layout6">
+      <section class="main-car">
+        <div class="layout">
+          <div class="name">셀토스</div>
+          <img class="logo" alt="차이름" src="image/logo/kiaLogo.png" />
+        </div>
+        <div class="price">차량 가격</div>
+        <div class="layout2">
+          <div class="price2">46,000,000</div>
+          <div class="won">원</div>
+        </div>
+        <div class="carcar">
+          <img class="car_photo" src="image/car/kia/seltos.png" />
+        </div>
+      </section>
+
+      <div class="layout7">
+        <section class="color">
+          <h2>색상</h2>
+          <div class="layout4">
+            <div class="colorType">외장 색상</div>
+            <div class="layout3">
+              <div class="layout5">
+                <input
+                  type="radio"
+                  class="outColor"
+                  id="white"
+                  name="out"
+                /><label for="layout3">Silver</label>
+              </div>
+              <div class="layout5">
+                <input
+                  type="radio"
+                  class="outColor"
+                  id="red"
+                  name="out"
+                /><label for="layout3">Red</label>
+              </div>
+              <div class="layout5">
+                <input
+                  type="radio"
+                  class="outColor"
+                  id="blue"
+                  name="out"
+                  style="justify-content: center"
+                /><label for="layout3">Blue</label>
+              </div>
+              <div class="layout5">
+                <input
+                  type="radio"
+                  class="outColor"
+                  id="black"
+                  name="out"
+                /><label for="layout3">Black</label>
+              </div>
+            </div>
+          </div>
+          <div class="layout4">
+            <div class="colorType">내장 색상</div>
+            <div class="layout3">
+              <div class="layout5">
+                <input
+                  type="radio"
+                  class="outColor"
+                  id="beige"
+                  name="in"
+                /><label for="layout3">beige</label>
+              </div>
+              <div class="layout5">
+                <input
+                  type="radio"
+                  class="outColor"
+                  id="brown"
+                  name="in"
+                /><label for="layout3">brown</label>
+              </div>
+              <div class="layout5">
+                <input
+                  type="radio"
+                  class="outColor"
+                  id="black"
+                  name="in"
+                /><label for="layout3">black</label>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="option1">
+          <h2>옵션</h2>
+
+          <div class="option2">
+            <div class="optionCar">
+              <div class="imgAndText">
+                <img src="image/car_option/seat1.jpg" />
+                <div class="user-text">
+                  시트플러스란,<br /><br />
+                  기아에서 제공하는 아주 <br />편한 좌석입니다.
+                </div>
+              </div>
+              <label id="opt1">
+                <input type="radio" name="opt23" />시트플러스
+              </label>
+            </div>
+
+            <div class="optionCar">
+              <div class="imgAndText">
+                <img src="image/car_option/smart.jpg" name="opt2" />
+                <div class="user-text">
+                  스마트센서란,<br /><br />
+                  기아에서 제공하는 아주 <br />스마트한 센서입니다.
+                </div>
+              </div>
+              <label id="opt2">
+                <input type="radio" name="opt24" />스마트센서
+              </label>
+            </div>
+
+            <div class="optionCar">
+              <div class="imgAndText">
+                <img src="image/car_option/nav.jpg" />
+                <div class="user-text">
+                  와이드 네비게이션이란,<br /><br />
+                  기아에서 제공하는 아주 <br />와이드한 네이게이션입니다.
+                </div>
+              </div>
+
+              <label id="opt3">
+                <input type="radio" name="opt25" />와이드 네비게이션
+              </label>
+            </div>
+
+            <div class="optionCar">
+              <div class="imgAndText">
+                <img src="image/car_option/smarddrive.jpeg" />
+                <div class="user-text">
+                  자율주행 기능이란,<br /><br />
+                  기아에서 제공하는 아주 <br />스마트한 자율주행 기능입니다.
+                </div>
+              </div>
+
+              <label id="opt4">
+                <input type="radio" name="opt26" />자율주행
+              </label>
+            </div>
+          </div>
+        </section>
+        <div class="wrap">
+          <section class="btn-set">
+            <button id="askConsult">
+              <a href="buildingPage.html">상담 요청</a>
+            </button>
+            <button id="askConsult1">견적 저장</button>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img src="image/logo/autoxplore_white.png" alt="로고" />
+      <ul>
+        <li>
+          <a href="https://github.com/Autoxplore/Autoxplore"
+            ><img src="image/footer/git.png" alt="git"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="image/footer/instagram.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="image/footer/facebook.png" alt="facebook" /></a>
+        </li>
+      </ul>
+      <p>
+        Copyright ⓒ 2023 Autoxplore 김하린 이지은 정희빈 조현진 All rights
+        reserved.
+      </p>
+    </footer>
+  </body>
+</html>

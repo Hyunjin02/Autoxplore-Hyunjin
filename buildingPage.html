@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상담 페이지</title>
+    <link rel="stylesheet" href="hyunjin_css/buildingPage.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <nav class="header1">
+          <ul>
+            <li><a href="vehiclesPage.html">차량</a></li>
+            <li><a href="vehiclesPage.html">브랜드</a></li>
+            <li><a href="consultPage.html">구매</a></li>
+            <li><a href="event.html">이벤트</a></li>
+          </ul>
+        </nav>
+        <a class="logo1" href="mainPage.html" title="메인 페이지로 이동"
+          ><img
+            class="logo"
+            src="image/logo/autoxplore.png"
+            alt="AUTOXPLORE 로고"
+        /></a>
+        <a href="#"><img class="bar" src="image/header/bar.png" alt="bar" /></a>
+        <nav class="header2">
+          <ul>
+            <li><a href="MyPage.html">로그인</a></li>
+            <li><a href="MyPage.html">마이페이지</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="head">
+        <h3>구매 상담 신청</h3>
+        <p>전담 상담원으로부터 차량 구매에 관한 모든 정보를 안내받아보세요.</p>
+      </div>
+
+      <section>
+        <div id="step1">
+          <div class="aboutStep">
+            <div class="step">Step1</div>
+            <div class="stepname">차량 선택</div>
+          </div>
+          <div class="line"></div>
+          <label class="selectName">카테고리 선택</label>
+          <select name="category">
+            <option value="">카테고리</option>
+            <option value="승용" name="cate">승용</option>
+            <option value="RV" selected="selected" name="cate">RV</option>
+            <option value="버스,상용" name="cate">버스&상용</option>
+          </select>
+
+          <label class="selectName">브랜드 선택</label>
+          <select name="brand">
+            <option value="">브랜드</option>
+            <option value="승용" name="brand-">현대</option>
+            <option value="RV" name="brand-" selected="selected">기아</option>
+            <option value="택시,상용" name="brand-">쉐보레</option>
+          </select>
+
+          <label class="selectName">모델 선택</label>
+          <select name="category">
+            <option value="">모델</option>
+            <option value="K3 GT" selected="selected">K3 GT</option>
+            <option value="EV6">EV6</option>
+            <option value="니로 EV">니로 EV</option>
+          </select>
+
+          <label class="selectName">엔진 선택</label>
+          <select name="category">
+            <option value="">엔진 선택</option>
+            <option value="GT DCT" selected="selected">GT DCT</option>
+          </select>
+        </div>
+
+        <div class="step1_1">
+          <div class="aboutStep">
+            <div class="step">Step1</div>
+            <div class="stepname">차량 선택</div>
+          </div>
+          <div class="line"></div>
+          <div class="layout3">
+            <div class="selectCategory">
+              <label>카테고리 선택</label>
+              <label>
+                <input type="radio" name="contact" value="email" />
+                <span>승용</span>
+              </label>
+              <label>
+                <input type="radio" name="contact" value="email" checked />
+                <span>RV</span>
+              </label>
+              <label>
+                <input type="radio" name="contact" value="email" />
+                <span>택시&상용</span>
+              </label>
+            </div>
+            <div class="selectCategory">
+              <label>브랜드 선택</label>
+              <label>
+                <input type="radio" name="contact2" value="email" checked />
+                <span>현대</span>
+              </label>
+              <label>
+                <input type="radio" name="contact2" value="email" checked />
+                <span>기아</span>
+              </label>
+              <label>
+                <input type="radio" name="contact2" value="email" checked />
+                <span>쉐보레</span>
+              </label>
+            </div>
+            <div class="selectCategory">
+              <label>모델 선택</label>
+              <label>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>K3 GT</span>
+              </label>
+              <label>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>EV6</span>
+              </label>
+              <label>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>니로 EV</span>
+              </label>
+              <label>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>K5</span>
+              </label>
+              <label>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>K8</span>
+              </label>
+              <label>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>K9</span>
+              </label>
+            </div>
+            <div class="selectCategory">
+              <label>엔진 선택</label>
+              <label>
+                <input type="radio" name="contact4" value="email" checked />
+                <span>1.6 가솔린</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div id="step2">
+          <div class="aboutStep">
+            <div class="step">Step2</div>
+            <div class="stepname">판매 네트워크 선택</div>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="place">
+            <div class="place1">
+              <label class="selectName">시/도</label>
+              <select class="layout2" name="category">
+                <option value="용산" selected="selected">강남구</option>
+                <option value="용산">강동구</option>
+                <option value="용산">강북구</option>
+                <option value="용산">강서구</option>
+                <option value="용산">관악구</option>
+              </select>
+            </div>
+
+            <div class="place2">
+              <label class="selectName">시/군/구</label>
+              <select class="layout2" name="category">
+                <option value="용산" selected="selected">서울특별시</option>
+                <option value="용산">경기도</option>
+                <option value="용산">인천광역시</option>
+                <option value="용산">대전광역시</option>
+                <option value="용산">세종특별자치시</option>
+              </select>
+            </div>
+          </div>
+          <label class="selectName">영업점 찾기</label>
+          <select class="layout2" name="category">
+            <option value="용산">AutoXPlore 용산점</option>
+            <option value="용산">AutoXPlore 송파점</option>
+            <option value="용산">AutoXPlore 강동점</option>
+            <option value="용산">AutoXPlore 강서점</option>
+            <option value="용산" selected="selected">AutoXPlore 강남점</option>
+          </select>
+        </div>
+
+        <div id="step3">
+          <div class="aboutStep">
+            <div class="step">Step3</div>
+            <div class="stepname">개인 정보 확인 활용 동의</div>
+          </div>
+          <div class="line"></div>
+
+          <div class="contactInfo1">
+            <div class="infotype">연락처 정보</div>
+            <div class="layout">
+              <div class="name">
+                <div class="contact1">이름</div>
+                <div class="contact2">김새싹</div>
+              </div>
+              <div class="phone">
+                <div class="contact1">연락처</div>
+                <div class="contact2">010-1234-5678</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contactInfo">
+            <div class="infotype">개인정보 수집 이용 및 제공 동의</div>
+            <p>
+              개인정보보호법, 신용정보 이용 및 보호에 관한 법률 규정에 따라
+              개인정보의 수집 · 이용 및 제공 동의가 필요합니다.
+            </p>
+            <p>
+              동의를 거부하실 수 있으나, 거부 시 서비스를 제공받으실 수
+              없습니다.
+            </p>
+            <div class="agreeAll">
+              <label id="agree"
+                >이용 약관에 동의합니다. <input type="checkbox"
+              /></label>
+            </div>
+          </div>
+
+          <div class="contactInfo">
+            <div class="infotype">추가 요청 사항(선택)</div>
+            <input
+              id="ask"
+              placeholder="추가적으로 요청할 사항을 적어주세요(선택)"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="forLayout2">
+        <button id="askConsult">상담요청</button>
+      </div>
+    </div>
+    <!-- 내가 만든 푸터
+    <footer>
+      <div class="forLayout">
+        <img src="image/logo/autoxplore_white.png" alt="로고" />
+      </div>
+      <ul>
+        <li>
+          <a href="https://github.com/Autoxplore/Autoxplore"
+            ><img src="image/footer/git.png" alt="git"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="image/footer/instagram.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="image/footer/facebook.png" alt="facebook" /></a>
+        </li>
+      </ul>
+      <p>
+        Copyright ⓒ 2023 Autoxplore 김하린 이지은 정희빈 조현진 All rights
+        reserved.
+      </p>
+    </footer>    -->
+    <footer>
+      <img src="image/logo/autoxplore_white.png" alt="로고" />
+      <ul>
+        <li>
+          <a href="https://github.com/Autoxplore/Autoxplore"
+            ><img src="image/footer/git.png" alt="git"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="image/footer/instagram.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="image/footer/facebook.png" alt="facebook" /></a>
+        </li>
+      </ul>
+      <p>
+        Copyright ⓒ 2023 Autoxplore 김하린 이지은 정희빈 조현진 All rights
+        reserved.
+      </p>
+    </footer>
+  </body>
+</html>
